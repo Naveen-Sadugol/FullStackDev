@@ -23,7 +23,7 @@ public class ReadExcelContentDemo {
 		Cell cell=null;
 		try
 		{
-			fin=new FileInputStream("D:\\EXCEL\\Test.xlsx");
+			fin=new FileInputStream("D:\\excel\\test.xlsx");
 			wb=new XSSFWorkbook(fin);
 			//Sheet Object
 			sh=wb.getSheet("Sheet1");

@@ -1,4 +1,4 @@
-package com.gentech.programs;
+package programs;
 
 public class Sample {
 

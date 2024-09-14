@@ -38,7 +38,7 @@ public class WriteExcelContentDemo {
 			cell=row.createCell(1);
 			cell.setCellValue("Welcome12345");
 			
-			fout=new FileOutputStream("D:\\EXCEL\\Credentails.xlsx");
+			fout=new FileOutputStream("D:\\\\excel\\\\sec.xlsx");
 			wb.write(fout);
 		}catch (Exception e) 
 		{
